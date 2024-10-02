@@ -1,6 +1,6 @@
-import * as UAHelpers from "..//lib/parse";
-import * as types from "..//lib/types";
-import { buildSelectorsObject } from "..//lib/buildSelectors";
+import * as UAHelpers from "./parse";
+import * as types from "./types";
+import { buildSelectorsObject } from "./buildSelectors";
 
 export const isSmartTV = types.isSmartTVType(UAHelpers.device);
 export const isConsole = types.isConsoleType(UAHelpers.device);
