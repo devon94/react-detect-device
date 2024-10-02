@@ -15,12 +15,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@devon94/react-detect-device/*": [
-        "src/*"
-      ]
-    }
   },
   "include": [
     "src"

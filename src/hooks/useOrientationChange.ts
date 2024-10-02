@@ -1,4 +1,4 @@
-import { isMobile } from "@devon94/react-detect-device/lib/selectors";
+import { isMobile } from "../lib/selectors";
 import React, { useCallback, useEffect, useState } from "react";
 
 export function useMobileOrientation() {

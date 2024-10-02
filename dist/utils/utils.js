@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isIOS13Check = exports.getNavigatorInstance = exports.setUserAgent = exports.getCurrentBrowser = exports.checkDeviceType = void 0;
 exports.setDefaults = setDefaults;
-var constants_1 = require("@devon94/react-detect-device/constants/constants");
-var parse_1 = require("@devon94/react-detect-device/lib/parse");
+var constants_1 = require("../constants/constants");
+var parse_1 = require("../lib/parse");
 var checkDeviceType = function (type) {
     switch (type) {
         case constants_1.Devices.Mobile:

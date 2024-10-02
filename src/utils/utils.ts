@@ -3,8 +3,8 @@ import {
   BrowserTypes,
   Devices,
   InitialDeviceTypes
-} from "@devon94/react-detect-device/constants/constants"
-import { setUa } from "@devon94/react-detect-device/lib/parse"
+} from "../constants/constants"
+import { setUa } from "../lib/parse"
 
 export const checkDeviceType = (type?: string) => {
   switch (type) {

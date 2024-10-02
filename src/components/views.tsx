@@ -1,4 +1,4 @@
-import { isAndroid, isBrowser, isIE, isIOS, isMobile, isTablet, isWinPhone, isMobileOnly, isSmartTV, isConsole, isWearable } from '@devon94/react-detect-device/lib/selectors'
+import { isAndroid, isBrowser, isIE, isIOS, isMobile, isTablet, isWinPhone, isMobileOnly, isSmartTV, isConsole, isWearable } from '../lib/selectors'
 import React, { Fragment, PropsWithChildren } from 'react'
 
 interface BaseViewProps extends React.HTMLAttributes<HTMLDivElement> {

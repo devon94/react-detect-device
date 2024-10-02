@@ -1,6 +1,6 @@
-import * as UAHelpers from "@devon94/react-detect-device/lib/parse";
-import * as types from "@devon94/react-detect-device/lib/types";
-import { buildSelectorsObject } from "@devon94/react-detect-device/lib/buildSelectors";
+import * as UAHelpers from "..//lib/parse";
+import * as types from "..//lib/types";
+import { buildSelectorsObject } from "..//lib/buildSelectors";
 
 export const isSmartTV = types.isSmartTVType(UAHelpers.device);
 export const isConsole = types.isConsoleType(UAHelpers.device);

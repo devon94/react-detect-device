@@ -24,9 +24,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.deviceDetect = deviceDetect;
-var UAHelper = __importStar(require("@devon94/react-detect-device/lib/parse"));
-var create = __importStar(require("@devon94/react-detect-device/utils/payloads"));
-var utils_1 = require("@devon94/react-detect-device/utils/utils");
+var UAHelper = __importStar(require("./parse"));
+var create = __importStar(require("../utils/payloads"));
+var utils_1 = require("../utils/utils");
 function deviceDetect(uastring) {
     var uaOptions = uastring ? UAHelper.parseUserAgent(uastring) : UAHelper;
     if (!uaOptions) {

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getUserAgent = exports.getIPod13 = exports.getIphone13 = exports.getIPad13 = exports.getIOS13 = exports.isEdgeChromiumType = exports.isElectronType = exports.getEngineVersion = exports.getEngineName = exports.getBrowserName = exports.getBrowserVersion = exports.getBrowserFullVersion = exports.isSamsungBrowserType = exports.isMIUIType = exports.isIEType = exports.isOperaType = exports.isMobileSafariType = exports.isSafariType = exports.isYandexType = exports.isEdgeType = exports.isChromiumType = exports.isFirefoxType = exports.isChromeType = exports.getOsName = exports.getOsVersion = exports.isIOSType = exports.isWinPhoneType = exports.isMacOsType = exports.isWindowsType = exports.isAndroidType = exports.getDeviceType = exports.getMobileModel = exports.getMobileVendor = exports.isEmbeddedType = exports.isConsoleType = exports.isWearableType = exports.isBrowserType = exports.isSmartTVType = exports.isMobileAndTabletType = exports.isTabletType = exports.isMobileType = void 0;
-var constants_1 = require("@devon94/react-detect-device/constants/constants");
-var utils_1 = require("@devon94/react-detect-device/utils/utils");
+var constants_1 = require("../constants/constants");
+var utils_1 = require("../utils/utils");
 // device types
 var isMobileType = function (device) {
     return (device === null || device === void 0 ? void 0 : device.type) === constants_1.Devices.Mobile;

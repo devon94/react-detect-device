@@ -2,12 +2,12 @@ import {
   Devices,
   OsTypes,
   BrowserTypes,
-} from "@devon94/react-detect-device/constants/constants";
+} from "../constants/constants";
 import {
   setDefaults,
   getNavigatorInstance,
   isIOS13Check,
-} from "@devon94/react-detect-device/utils/utils";
+} from "../utils/utils";
 
 // device types
 export const isMobileType = (device?: UAParser.IDevice) =>

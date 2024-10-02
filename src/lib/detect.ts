@@ -1,6 +1,6 @@
-import * as UAHelper from "@devon94/react-detect-device/lib/parse";
-import * as create from "@devon94/react-detect-device/utils/payloads";
-import { checkDeviceType } from "@devon94/react-detect-device/utils/utils";
+import * as UAHelper from "./parse";
+import * as create from "../utils/payloads";
+import { checkDeviceType } from "../utils/utils";
 
 export function deviceDetect(uastring: string | null) {
   const uaOptions = uastring ? UAHelper.parseUserAgent(uastring) : UAHelper;

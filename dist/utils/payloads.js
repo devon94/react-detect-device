@@ -12,7 +12,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.embeddedPayload = exports.wearablePayload = exports.consolePayload = exports.smartTvPayload = exports.mobilePayload = exports.browserPayload = void 0;
-var utils_1 = require("@devon94/react-detect-device/utils/utils");
+var utils_1 = require("./utils");
 var browserPayload = function (isBrowser, browser, engine, os, ua) { return ({
     isBrowser: isBrowser,
     browserMajorVersion: (0, utils_1.setDefaults)(browser.major),

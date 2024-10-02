@@ -46,7 +46,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CustomView = exports.WearableView = exports.ConsoleView = exports.SmartTVView = exports.MobileOnlyView = exports.WinPhoneView = exports.TabletView = exports.MobileView = exports.IOSView = exports.IEView = exports.BrowserView = exports.AndroidView = void 0;
-var selectors_1 = require("@devon94/react-detect-device/lib/selectors");
+var selectors_1 = require("../lib/selectors");
 var react_1 = __importStar(require("react"));
 var AndroidView = function (_a) {
     var renderWithFragment = _a.renderWithFragment, children = _a.children, props = __rest(_a, ["renderWithFragment", "children"]);

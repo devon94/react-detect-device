@@ -1,4 +1,4 @@
-import { setDefaults } from "@devon94/react-detect-device/utils/utils"
+import { setDefaults } from "./utils"
 
 export const browserPayload = (
   isBrowser: boolean,

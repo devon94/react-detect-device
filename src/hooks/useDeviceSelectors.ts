@@ -1,5 +1,5 @@
-import { useDeviceData } from "@devon94/react-detect-device/hooks/useDeviceData"
-import { buildSelectorsObject } from "@devon94/react-detect-device/lib/buildSelectors"
+import { useDeviceData } from "./useDeviceData"
+import { buildSelectorsObject } from "../lib/buildSelectors"
 
 export function useDeviceSelectors(uastring?: string | null) {
   const hookUserAgent = uastring ? uastring : window.navigator.userAgent

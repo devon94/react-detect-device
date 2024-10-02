@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useMobileOrientation = useMobileOrientation;
-var selectors_1 = require("@devon94/react-detect-device/lib/selectors");
+var selectors_1 = require("../lib/selectors");
 var react_1 = require("react");
 function useMobileOrientation() {
     var _a = (0, react_1.useState)(function () {
