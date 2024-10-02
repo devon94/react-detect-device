@@ -24,9 +24,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getSelectorsByUserAgent = exports.isSamsungBrowser = exports.isMIUI = exports.isMacOs = exports.isWindows = exports.isLegacyEdge = exports.isEdgeChromium = exports.isElectron = exports.isIPod13 = exports.isIPhone13 = exports.isIPad13 = exports.isIOS13 = exports.deviceType = exports.isYandex = exports.isEdge = exports.getUA = exports.engineVersion = exports.engineName = exports.mobileModel = exports.mobileVendor = exports.browserName = exports.browserVersion = exports.fullBrowserVersion = exports.osName = exports.osVersion = exports.isIE = exports.isOpera = exports.isSafari = exports.isFirefox = exports.isChrome = exports.isIOS = exports.isWinPhone = exports.isAndroid = exports.isDesktop = exports.isBrowser = exports.isTablet = exports.isMobileOnly = exports.isMobile = exports.isChromium = exports.isMobileSafari = exports.isEmbedded = exports.isWearable = exports.isConsole = exports.isSmartTV = void 0;
-var UAHelpers = __importStar(require("..//lib/parse"));
-var types = __importStar(require("..//lib/types"));
-var buildSelectors_1 = require("..//lib/buildSelectors");
+var UAHelpers = __importStar(require("./parse"));
+var types = __importStar(require("./types"));
+var buildSelectors_1 = require("./buildSelectors");
 exports.isSmartTV = types.isSmartTVType(UAHelpers.device);
 exports.isConsole = types.isConsoleType(UAHelpers.device);
 exports.isWearable = types.isWearableType(UAHelpers.device);
